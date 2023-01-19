@@ -1,0 +1,9 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  perspective: 300px;
+  perspective-origin: right;
+  text-align: right;
+  float: right;
+  margin: 0px auto;
+}

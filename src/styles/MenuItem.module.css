@@ -1,0 +1,25 @@
+.item {
+  font-size: 10em;
+  text-decoration: none;
+  color: var(--light-blue);
+  transform-style: preserve-3d;
+  transform: rotateY(-5deg);
+}
+
+.item:hover {
+  animation: twist 3s infinite;
+}
+
+@keyframes twist {
+  0% {
+    transform: rotateY(-5deg);
+  }
+
+  50% {
+    transform: rotateY(5deg);
+  }
+
+  100% {
+    transform: rotateY(-5deg);
+  }
+}
